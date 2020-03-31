@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_top_bottom_left_right">
+
+    <TextView
+        android:id="@+id/name_provinsi"
+        android:textColor="@color/color_black_android"
+        android:textSize="14sp"
+        android:background="@drawable/border_right"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="0.4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/amount_positive_covid_ID"
+        android:textColor="@color/color_black_android"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@drawable/border_right"
+        android:layout_weight="0.2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/amount_recover_covid_ID"
+        android:textColor="@color/color_black_android"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@drawable/border_right"
+        android:layout_weight="0.2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/amount_die_covid_ID"
+        android:textColor="@color/color_black_android"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

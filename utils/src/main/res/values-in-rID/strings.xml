@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_pantauan_covid_19_indonesia">Data Pantauan COVID-19 Indonesia</string>
+    <string name="indonesian">Indonesia</string>
+    <string name="close">Keluar</string>
+    <string name="die">Meninggal</string>
+    <string name="recover">Sembuh</string>
+    <string name="positive">Positif</string>
+</resources>
